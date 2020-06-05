@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<!--
+author: Angela Neri
+date:   2019/04/23
+notes:  Assignment 01 - Page index = Tutorial
+
+-->
+
+
+<head>
+    <meta charset="utf-8" />
+    <title> CSS Tutorial </title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <table>
+        <tr class="top_align">
+            <td colspan="2" id="header">
+                <img src="./images/bcit.jpeg" alt="BCIT logo" />
+            </td>
+        </tr>
+
+
+
+
+        <tr>
+            <td id="menu_td" class="top_align">
+                <ul>
+                    <li><a class="nav_link" href="index.html">HTML tag</a></li>
+                    <li><a class="nav_link" href="resources.html">Resources</a></li>
+                    <li><a class="nav_link" href="#">Tutorial</a></li>
+
+                </ul>
+
+            </td>
+            <td id="content">
+                <h1>Tutorial</h1>
+
+
+                <div class="backdrop">
+                    <p class="text">
+                        <br /> <br />LIGTHING <br /><br /><br />
+                    </p>
+                    <p class="text">
+                        <br /> <br />UP<br /><br /><br />
+                    </p>
+
+                    <p class="text">
+                        <br /> <br />THE STEPS<br /><br /><br />
+                    </p>
+
+                    <p class="text">
+                        <br /> <br />AHEAD OF YOU <br /><br /><br />
+                    </p>
+
+
+
+
+
+
+                </div>
+                <p> This page describes a tutorial for the use of <em>opacity</em> property to "brigth" images<br /> </p>
+
+
+                <ol>
+                    <li>We need to set one or more images as background. In this case, image was set up in the class <em>.backdrop</em> </li>
+                    <li>Then, we need to set the attribute for <em>opacity</em> in an element in front of the image. In this example, I used the class <em>.text</em>  </li>
+                    <li>To create the  <em>Ligthing up</em> effect, it's possible to use <em>hover</em> event so luminosity will change when we hover the mouse over the object. </li>
+                    <li>In the class <em>.text:hover</em> I updated the color of text and opacity</li>
+                    <li>I used the class text in a &lt;p&gt; tag as an example, and a &lt;div&gt; tag to set up image background.</li>
+                </ol>
+                <p>This tutorial was inspired by:</p>
+                <ul>
+                    <li> <a class="ext_link" href="https://www.w3schools.com/css/css_image_transparency.asp">W3 scholl</a>- CSS opacity</li>
+                    <li>
+                        <a class="ext_link" href="https://css-tricks.com/css-techniques-and-effects-for-knockout-text">CSS tricks</a> - Knock out texts
+                        (but property "mix-blend-mode" was not compatible so I made it a little different)
+                    </li>
+
+                </ul>
+                <p><a class="int_link" href="#top">Top</a></p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" id="footer">
+                <p>COMP1850: Assigment 01 - <a class="ext_link" href="./homework/index.html">Angela Neri</a></p>
+
+            </td>
+        </tr>
+    </table>
+
+
+</body>
+</html>

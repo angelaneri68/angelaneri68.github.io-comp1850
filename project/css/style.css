@@ -1,0 +1,526 @@
+
+/* Angela Neri    - CSS final Project      */
+/* creation: 2019-04-17 */
+/* updated:  2019-05-21  */
+/* colors #B38B69 #E1E7E0 #CDC2C7 #7C6F51 #E1E7E0*/
+
+/*
+--------------------------------
+HTML selectors
+--------------------------------
+*/
+
+body {
+    font-family:"verdana";
+    background-color: black;
+
+}
+
+table {
+    width: 100%;
+    /* 
+	center a tag in the parent
+		margin-left:auto;
+		margin-right:auto;
+	*/
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    /* remove gaps between cells... */
+      border-collapse: collapse;  
+
+}
+td {
+    text-align: center;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    height: 100px;
+}
+
+
+
+
+p { 
+    text-indent: 32px
+
+}
+h1 {
+    color: #33C8F1;
+    text-align: center;
+}
+h2 {
+    color: #33C8F1;
+    text-align: left;
+}
+h3 {
+    color: #B38B69;
+    text-align: left;
+}
+h4 {
+    color: #B38B69;
+    text-align: left;
+}
+h5 {
+    color: #B38B69;
+    text-align: left;
+}
+h6 {
+    color: #B38B69;
+    text-align: left;
+}
+
+    
+
+blockquote {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size:90%
+}
+dt {
+    font-weight: bold;
+    padding: 0 0 0.2em 0;
+}
+
+dd {
+    margin: 0;
+    padding: 0 0 0.9em 0;
+}
+
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+
+form {
+    border-color: #33C8F1;
+}
+
+/*
+--------------------------------
+CLASS selectors
+--------------------------------
+*/
+
+.center_p {
+    padding-bottom:5px;
+    padding-top:10px;
+    text-align:center
+
+}
+.top_align{
+	vertical-align:top;	
+}
+
+.center_align{
+    align-content:center
+}
+
+.tab_ident{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+.bullet_list {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.bullet_star {
+    list-style-image: url(../images/star.png);
+    list-style-position:inside;
+}
+
+.nav_link {
+    display: block;
+    font-weight: bold;
+    font-size: 13.5px;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    /* 
+    background-color: #7C6F51;
+    color: #E1E7E0;
+    */
+    display: inline;
+    float: left;
+}
+
+
+    .nav_link:hover {
+        background-color: transparent;
+        color: #CE3037;
+    }
+
+
+
+.nav_link2 {
+    display: block;
+    font-weight:normal;
+    font-size: 10px;
+    text-decoration:underline;
+    background-color: transparent;
+    color: white;
+    display: inline;
+    float: left;
+    padding-left:10px;
+}
+
+
+    .nav_link2:hover {
+        background-color: transparent;
+        color: #CE3037;
+    }
+
+
+
+.int_link {
+    color: #3D3C2C /* #E1E7E0 */
+}
+
+    .int_link:hover {
+        color: #61382A;
+    }
+
+.ext_link {
+    color: #33C8F1 /* #E1E7E0 */
+}
+
+    .ext_link:hover {
+        color: #E1E7E0;
+    }
+
+
+.paragraf {
+    text-align:justify;
+}
+
+.inlinep {
+    display:inline;
+}
+
+.code_result {
+    border-style: solid;
+    color: #6AA4B0;
+    background-color: #E1E7E0;
+}
+
+
+.my_img {
+    width: 288px;
+    height: 500px;
+    align-content: center;
+
+    border-width: 6px;
+    border:ridge;
+    border-color: #33C8F1;
+}
+
+.img_proj{
+    border-color:white;
+    border-width:5px;
+    border-style:solid;
+    box-shadow: 5px 5px gray;
+
+}
+
+
+
+.backdrop {
+    background-image: url("../images/pathway.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: cover;
+
+}
+
+.header_dark {
+    color: #61382A;
+}
+.text {
+    color: rgb(59, 2, 6);
+    background: rgb(59, 2, 6);
+    opacity: 0.65;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: 130%;
+    font-weight:bold;
+}
+    .text:hover {
+        color: yellow;
+        background: rgb(59, 2, 6);
+        opacity: 0.25;
+    }
+
+.text_collor_panel {
+    color: #03c;
+    background-color: #eeb3a4;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #070362;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: 700;
+    font-size:120%;
+}
+
+
+
+.labelf {
+    height: 20px;
+    display:block;
+    width: 180px;
+    font-size: 14px;
+}
+
+
+
+.bigtextinput {
+    height: 100px;
+    width: 400px;
+    border-color: #33C8F1;
+    background-color: black;
+    font-size: 14px;
+    color: white;
+}
+.textinput {
+    height: 20px;
+    width: 200px;
+    border-color: #33C8F1;
+    background-color: black;
+    font-size: 14px;
+    margin-top: 5px;
+    color: white;
+}
+
+
+.button_ok {
+    color: white;
+    background-color: #03D8C8;
+    font-weight: bold;
+    font-size: 16px;
+    width: 80px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left:3px;
+
+}
+
+
+.button_reset {
+    color: white;
+    background-color: #FFB560;
+    font-weight: bold;
+    font-size: 16px;
+    width: 80px;
+    height: 40px;
+
+
+}
+
+
+
+.company_left {
+    vertical-align: top;
+    border-bottom:none;
+    width:50%;
+    padding-top:15px;
+}
+
+
+.role_desc_rigth {
+    box-shadow: 8px 10px #198265;
+    border-color: #03D8C8;
+    border-style: solid;
+    font-size: 9px;
+    padding: 10px;
+    width: 50%;
+    text-align:left;
+}
+
+
+.company_parag {
+    text-align:center;
+}
+.role_parag {
+    font-size: 11px;
+    text-align: left;
+    text-indent:0px;
+}
+.project {
+    border-width: 6px;
+    border: ridge;
+    border-color: #33C8F1;
+    padding: 10px;
+    box-shadow: 5px 10px #92C4DB;
+    min-width:300px;
+}
+
+
+/*
+--------------------------------
+ID selectors
+--------------------------------
+*/
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+#rigth_content {
+    position: fixed;
+    top: 98px;
+    right: 20px;
+    width: 150px;
+    background-color: #7C6F51;
+    color: #E1E7E0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #61382A;
+    padding: 10px;
+
+    /* box model style */
+}
+
+
+#main_content {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+}
+
+
+#gallery {
+    position:relative;
+    margin-right:auto;
+    margin-left:auto;
+    width:720px;
+
+}
+
+#left_content {
+    position: relative;
+    width: 288px;
+    top: 20px;
+    left: 0px;
+    padding-top: 10px;
+    margin-bottom:50px;
+    display:inline;
+    float:left;
+
+
+}
+
+
+#center_content {
+    position: relative;
+    margin-left: 350px;
+    margin-right: 20px;
+    max-width: 660px;
+    min-width: 200px;
+    padding: 10px;
+    color: white;
+
+
+}
+
+#top_page {
+    position: relative;
+    
+    width:1024px;
+    height: 120px;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    background-image: url("../images/headerimage2.png")
+}
+
+
+#menu_vert {
+    position: absolute;
+    top: 30px;
+    left:360px;
+    width: 700px;
+    background-color: transparent;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    z-index: 2;
+    margin-right: 10px;
+}
+
+
+
+
+#menu_supplemental {
+    position: absolute;
+    top: 170px;
+    left: 500px;
+    width: 500px;
+    background-color: transparent;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    z-index: 2;
+    margin-right: 10px;
+}
+
+
+
+#header {
+    position: relative;
+    top: 0px;
+    left: 10px;
+
+    margin-top: 0px;
+    margin-right: 20px;
+    height: 50px;
+    width: 200px;
+    background-color: transparent;
+    color: #E1E7E0;
+    text-align: center;
+    font-style: italic;
+    font-size: 150%;
+    padding-top: 2px;
+    padding-bottom: 8px;
+    z-index: 1;
+}
+
+#footer {
+    position: relative;
+    height: 50px;
+    color: #E1E7E0;
+    text-align: center;
+    left: 0px;
+
+    margin-right: 10px;
+    margin-top:100px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    width: 1024px;
+    height: 209px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url("../images/footerimage2.png")
+}
+
+

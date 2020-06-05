@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<!--
+author: Angela Neri
+date:   2019/05/21
+notes:  Final Project
+
+-->
+
+<head>
+    <meta charset="utf-8" />
+    <title>Interactive Resume - Gallery Page</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css" />
+</head>
+
+
+
+
+<body>
+    <div id="container">
+
+
+        <div id="top_page">
+            <!-- HEADER -->
+            <div id="header">
+
+            </div>
+
+
+            <!-- TOP MENU -->
+            <div id="menu_vert">
+                <ul>
+                    <li>
+                        <a class="nav_link" href="home.html">&nbsp; Who I am &nbsp; &nbsp;</a>
+                    </li>
+                    <li>
+                        <a class="nav_link" href="education.html"> &nbsp; &nbsp; Education &nbsp; &nbsp;</a>
+                    </li>
+                    <li>
+                        <a class="nav_link" href="work.html"> &nbsp; &nbsp; Work &nbsp; &nbsp;</a>
+                    </li>
+                    <li>
+                        <a class="nav_link" href="projetos.html"> &nbsp; &nbsp; Projects &nbsp; &nbsp;</a>
+                    </li>
+                    <li>
+                        <a class="nav_link" href="skill.html"> &nbsp; &nbsp; Skills &nbsp; &nbsp;</a>
+                    </li>
+                    <li>
+                        <a class="nav_link" href="contact.html"> &nbsp; &nbsp; Contact &nbsp; &nbsp;</a>
+                    </li>
+                    <li>
+                        <a class="nav_link" href="gallery.html"> &nbsp; &nbsp; Gallery &nbsp; &nbsp;</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div id="main_content">
+            <h1>Event pictures</h1>
+            <p> Good memories with my co-workers. Achievements need to be celebrated! <br /><br /></p>
+            <div id="gallery">
+                <div id="carrousel">
+                    <section class="center slider">
+                        <div>
+                            <img src="images/gal1.jpg" alt="Event picture with co-workers">
+                        </div>
+                        <div>
+                            <img src="images/gal2.jpg" alt="Event picture with co-workers">
+                        </div>
+                        <div>
+                            <img src="images/gal3.jpg" alt="Event picture with co-workers">
+                        </div>
+                        <div>
+                            <img src="images/gal4.jpg" alt="Event picture with co-workers">
+                        </div>
+                        <div>
+                            <img src="images/gal5.jpg" alt="Event picture with co-workers">
+                        </div>
+                        <div>
+                            <img src="images/gal6.jpg" alt="Event picture with co-workers">
+                        </div>
+                        <div>
+                            <img src="images/gal7.jpg" alt="Event picture with co-workers">
+                        </div>
+                        <div>
+                            <img src="images/gal8.jpg" alt="Event picture with co-workers">
+                        </div>
+                        <div>
+                            <img src="images/gal9.jpg" alt="Event picture with co-workers">
+                        </div>
+                    </section>
+
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- FOOTER -->
+        <div id="footer">
+            <div id="menu_supplemental">
+                <ul>
+                    <li>
+                        <a class="nav_link2" href="home.html">About me</a>
+                    </li>
+                    <li>
+                        <a class="nav_link2" href="education.html">My education</a>
+                    </li>
+                    <li>
+                        <a class="nav_link2" href="work.html">My Experience</a>
+                    </li>
+                    <li>
+                        <a class="nav_link2" href="projetos.html">My Projects</a>
+                    </li>
+                    <li>
+                        <a class="nav_link2" href="skill.html">My Skills</a>
+                    </li>
+                    <li>
+                        <a class="nav_link2" href="contact.html">Talk to me</a>
+                    </li>
+                    <li>
+                        <a class="nav_link2" href="gallery.html">Gallery</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">$(document).ready(function(){
+        $(".center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 1,
+        slidesToScroll: 3
+      });
+    });</script>
+
+
+
+</body>
+</html>
