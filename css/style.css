@@ -1,0 +1,194 @@
+
+/* Angela Neri          */
+/* creation: 2019-04-17 */
+/* updated:  2019-04-23  */
+
+/*
+--------------------------------
+HTML selectors
+--------------------------------
+#6AA4B0   */
+body {
+    font-family: "verdana";
+    background-color: #2B4560;
+}
+
+table {
+    width: 90%;
+    /* 
+	center a tag in the parent
+		margin-left:auto;
+		margin-right:auto;
+	*/
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #6AA4B0;
+    /* remove gaps between cells... */
+     border-collapse: collapse;
+}
+td{
+
+}
+h1 {
+    color: #f79208; /* #E1E7E0*/
+    text-align: center;
+}
+h2 {
+    color: #5885AF;
+    text-align: left;
+}
+h3 {
+    color: #E1E7E0;
+    text-align: left;
+}
+h4 {
+    color: #E1E7E0;
+    text-align: left;
+}
+h5 {
+    color: #E1E7E0;
+    text-align: left;
+}
+h6 {
+    color: #E1E7E0;
+    text-align: left;
+}
+
+blockquote {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size:90%
+}
+dt {
+    font-weight: bold;
+    padding: 0 0 0.2em 0;
+}
+
+dd {
+    margin: 0;
+    padding: 0 0 0.9em 0;
+}
+
+/*
+--------------------------------
+CLASS selectors
+--------------------------------
+*/
+.top_align{
+	vertical-align:top;	
+}
+
+.center_align{
+    align-content:center
+}
+
+.tab_ident{
+    margin-left: 10px;
+}
+#menu_td ul {
+    list-style-type: none;
+    padding-left: 0px;
+    background-color: #2F6D80;
+}
+.bullet_list {
+    list-style-type:circle
+}
+.nav_link {
+    padding-left: 50px;
+    margin-right: 30px;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #2F6D80;
+    color: #E1E7E0;
+}
+    .nav_link:hover {
+        background-color: #2B4560;
+        color: #E1E7E0;
+    }
+.int_link {
+    color: #5885AF /* #E1E7E0 */ 
+}
+
+    .int_link:hover {
+        color: #2B4560;
+    }
+
+.ext_link {
+    color: #41729F /* #E1E7E0 */
+}
+
+    .ext_link:hover {
+        color: #2B4560;
+    }
+
+
+.paragraf {
+    text-align:justify;
+}
+
+.code_result {
+    border-style: solid;
+    color: #6AA4B0;
+    background-color: #E1E7E0;
+}
+
+
+.my_img {
+    object-fit: cover;
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.backdrop {
+    background-image: url("../images/pathway.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: cover;
+
+}
+.text {
+    color: rgb(59, 2, 6);
+    background: rgb(59, 2, 6);
+    opacity: 0.65;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: 130%;
+    font-weight:bold;
+}
+    .text:hover {
+        color: yellow;
+        background: rgb(59, 2, 6);
+        opacity: 0.25;
+    }
+/*
+--------------------------------
+ID selectors
+--------------------------------
+*/
+#content {
+    background-color: #6AA4B0;
+    color: #E1E7E0;
+}
+#menu_td {
+    width: 200px;
+    background-color: #2F6D80;
+}
+#header {
+    background-color: #ffffff;
+    color: #E1E7E0;
+    text-align: center;
+}
+
+#footer {
+    background-color: #ffffff;
+    color: #2B4560;
+    text-align: center;
+}

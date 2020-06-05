@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="en">   
+<!-- Angela Neri
+    2019/05/12
+    Homework 05 - Form
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>HTML Forms</title>
+        <link   rel="stylesheet" 
+                href="css/style.css" />
+    </head>
+    <body>
+     <div id="container">
+
+
+        <div id="top_page">
+            <!-- HEADER -->
+            <div id="header">
+                <p>Homework 05</p>
+            </div>
+
+
+
+        </div>
+        <div id="main_content">
+           
+                <form action="http://bcitcomp.ca/1850/comp1850_homework05.php" method="post">
+
+                    <fieldset class="fieldn1">
+
+                        <legend>Application Form</legend>
+                        <fieldset class="fieldn2">
+
+                            <legend>User Information</legend>
+
+
+
+                            <input class="radiof"
+                                   type="radio"
+                                   id="Mr"
+                                   name="prefix" />
+                            <label for="Mr">Mr</label>
+
+
+                            <input class="radiof"
+                                   type="radio"
+                                   id="Mrs"
+                                   name="prefix" />
+                            <label for="Mrs">Mrs</label>
+
+
+                            <input class="radiof"
+                                   type="radio"
+                                   id="Ms"
+                                   name="prefix" />
+                            <label for="Ms">Ms</label>
+                            <br />
+
+
+
+
+                            <label class="labelf"  for="firstname">First Name:</label>
+                            <input class="textinput"
+                                   type="text"
+                                   id="firstname"
+                                   name="firstname" />
+
+                            <label class="labelcol2"   for="lastname">Last Name:</label>
+                            <input class="textinput"
+                                   type="text"
+                                   id="lastname"
+                                   name="lastname" />
+                            <br />
+
+                            <label class="labelf"  for="studentnumber">Student Number:</label>
+                            <input class="textinput"
+                                   type="text"
+                                   id="studentnumber"
+                                   name="studentnumber" />
+                        </fieldset>
+
+
+                        <fieldset class="fieldn2">
+
+                            <legend>Registers</legend>
+                            <label for="courses" class="auto_width">Which courses would you like to register? <small>Choose all that apply...</small></label>
+
+                            <br />
+                            <select class="selection" name="courses" id="courses" size="4" multiple="multiple">
+                                <option value="COMP1850">COMP1850</option>
+                                <option value="COMP1950">COMP1950</option>
+                                <option value="COMP1409">COMP1409</option>
+                                <option value="COMP1630">COMP1630</option>
+                                <option value="COMP2015">COMP2015</option>
+                                <option value="COMP3015">COMP3015</option>
+                            </select>
+                            <br />
+
+
+
+                        </fieldset>
+
+                        <fieldset class="fieldn2">
+                            <legend>Comments</legend>
+                            <textarea class="bigtextinput" name="comments"
+                                      placeholder="Insert here your comments"
+                                      id="comments"></textarea>
+
+                        </fieldset>
+
+                        </fieldset>
+
+                        <input type="submit" value="Submit" class="button_ok" />
+                        <input type="reset" value="Reset" class="button_reset" />
+
+        </form>
+
+
+        </div>
+
+        <div id="footer">
+
+            <p class="center_p"> Angela Neri - A01168609 </p>
+        </div>
+
+    </div>
+
+
+
+    </body>
+</html>

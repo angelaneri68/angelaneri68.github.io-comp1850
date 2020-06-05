@@ -1,0 +1,271 @@
+
+/* Angela Neri          */
+/* creation: 2019-04-17 */
+/* updated:  2019-04-23  */
+
+/*
+--------------------------------
+HTML selectors
+--------------------------------
+#6AA4B0   */
+body {
+    font-family: "verdana";
+    background-color: #CDC2C7;
+}
+
+table {
+    width: 90%;
+    /* 
+	center a tag in the parent
+		margin-left:auto;
+		margin-right:auto;
+	*/
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #6AA4B0;
+    /* remove gaps between cells... */
+     border-collapse: collapse;
+}
+td{
+
+}
+h1 {
+    color: #E1E7E0;
+    text-align: center;
+}
+h2 {
+    color: #E1E7E0;
+    text-align: left;
+}
+h3 {
+    color: #E1E7E0;
+    text-align: left;
+}
+h4 {
+    color: #E1E7E0;
+    text-align: left;
+}
+h5 {
+    color: #E1E7E0;
+    text-align: left;
+}
+h6 {
+    color: #E1E7E0;
+    text-align: left;
+}
+
+blockquote {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size:90%
+}
+dt {
+    font-weight: bold;
+    padding: 0 0 0.2em 0;
+}
+
+dd {
+    margin: 0;
+    padding: 0 0 0.9em 0;
+}
+
+/*
+--------------------------------
+CLASS selectors
+--------------------------------
+*/
+
+.pad {
+    padding-bottom:5px;
+    padding-top:10px;
+
+}
+.top_align{
+	vertical-align:top;	
+}
+
+.center_align{
+    align-content:center
+}
+
+.tab_ident{
+    margin-left: 10px;
+}
+#menu_td, ul {
+    list-style-type: none;
+
+    padding-left: 0px;
+}
+.bullet_list {
+    list-style-type:circle
+}
+.nav_link {
+    display: block;
+
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #7C6F51;
+    color: #E1E7E0;
+}
+    .nav_link:hover {
+        background-color: #3D3C2C;
+        color: #E1E7E0;
+    }
+.int_link {
+    color: #3D3C2C /* #E1E7E0 */
+}
+
+    .int_link:hover {
+        color: #61382A;
+    }
+
+.ext_link {
+    color: #3D3C2C /* #E1E7E0 */
+}
+
+    .ext_link:hover {
+        color: #61382A;
+    }
+
+
+.paragraf {
+    text-align:justify;
+}
+
+.code_result {
+    border-style: solid;
+    color: #6AA4B0;
+    background-color: #E1E7E0;
+}
+
+
+.my_img {
+    object-fit: cover;
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.backdrop {
+    background-image: url("../images/pathway.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: cover;
+
+}
+.text {
+    color: rgb(59, 2, 6);
+    background: rgb(59, 2, 6);
+    opacity: 0.65;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: 130%;
+    font-weight:bold;
+}
+    .text:hover {
+        color: yellow;
+        background: rgb(59, 2, 6);
+        opacity: 0.25;
+    }
+/*
+--------------------------------
+ID selectors
+--------------------------------
+*/
+
+#container {
+    min-width: 600px;
+    position: relative;
+
+}
+#content {
+    background-color: #6AA4B0;
+    color: #E1E7E0;
+}
+#rigth_content {
+    position: absolute;
+    top: 90px;
+    right: 10px;
+    width: 150px;
+    background-color: #7C6F51;
+    color: #E1E7E0;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #61382A;
+    padding: 10px;
+
+    /* box model style */
+}
+
+
+#center_content {
+    position: relative;
+    top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #61382A;
+    background-color: #B38B69;
+    padding: 10px;
+    color: #E1E7E0;
+}
+
+#left_content {
+    position: absolute;
+    width: 150px;
+    higth:400px;
+    top: 90px;
+    left: 10px;
+    padding: 10px;
+    z-index: 2;
+    background-color: #7C6F51;
+    color: #E1E7E0;
+}
+
+
+
+
+
+#menu_td {
+    width: 200px;
+    background-color: #7C6F51;
+}
+#header {
+    position: relative;
+    top: 0px;
+    left: 10px;
+    rigth:10px;
+    margin-top: 0px;
+    margin-right:20px;
+    height: 50px;
+
+    background-color: #61382A;
+    color: #E1E7E0;
+    text-align: center;
+    font-size:130%;
+    padding-top: 2px;
+    padding-bottom:8px;
+
+}
+
+#footer {
+    position: relative;
+    height: 50px;
+    background-color: #61382A;
+    color: #E1E7E0;
+    text-align: center;
+    top: 100px;
+    left:10px;
+    rigth:10px;
+    margin-right:20px;
+    margin-top: 20px;
+    margin-bottom:10px;
+    padding-bottom:0px;
+}
